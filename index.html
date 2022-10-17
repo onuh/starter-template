@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
+	<title>Test App</title>
+	<link rel="stylesheet" href="css/framework7.bundle.min.css">
+</head>
+<body>
+<div id="app">
+	<div class="view view-main view-init" data-url="/">
+		<div class="page page-home page-with-subnavbar">
+			<div class="tab tab-active page-content">
+				<h1>Welcome</h1>
+				<a href="/page1/">page 1</a>
+				<a href="/page2/">page 2</a>
+				<a href="/page3/">page 3</a>
+				<a href="/page4/">page 4</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- script -->
+<script src="js/framework7.min.js"></script>
+<script src="js/routes.js"></script>
+<script src="js/app.js"></script>
+<!-- end script -->
+</body>
+</html>
